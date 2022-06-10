@@ -779,12 +779,18 @@ html, body {
 /* HERO
 ================================================== */
 .hero { 
-    background: url(../img/backg.png) no-repeat center / cover; 
-    height: 10%;
-    width: 10%;
+    background: url(../img/background.webp) no-repeat center / cover; 
+    height: 100%;
+    width: 100%;
     display: table;
     position: relative;
 }
+@media screen and (max-width: 600px) {
+    .hero{
+        width: 100%;
+        height: 100%;
+        margin-top: 0;
+    }
 
 .overlay:before {
   content: '';
