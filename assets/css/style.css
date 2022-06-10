@@ -1719,7 +1719,7 @@ margin-right: 50px;
 }
 input[type=text], input[type=email], input[type=number], input[type=select], input[type=date],input[type=select],input[type=password], input[type=tel]
 {
-    width: 45%;
+    width: 80%;
     padding: 12px;
     border: 1px solid rgb(168, 166, 166);
     border-radius: 4px;
@@ -1732,7 +1732,7 @@ textarea{
     border-radius: 4px;
     resize: vertical;
 }
-input[type=radio],input[type=checkbox]{
+input[type=radio]{
     width: 1%;
     padding-left: 0%;
     border: 1px solid rgb(168, 166, 166);
@@ -1776,7 +1776,8 @@ background-color: #32a336;
 }
 .col-90{
     float: left;
-    width: 90%;
+    width: 100%;
+    margin-left: 70px;
 }
 .row2:after{
     content: "";
